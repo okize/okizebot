@@ -1,3 +1,3 @@
 # okize-hubot
 
-Campfire's robotic butler.
+Campfire's robotic butler
