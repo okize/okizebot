@@ -1,4 +1,3 @@
-# okize-hubot
+# okizebot
 
-Campfire's robotic butler
-
+Robot okize
