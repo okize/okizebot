@@ -19,8 +19,7 @@
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-business-cat": "1.0.x",
     "hubot-chicken-dance": "1.0.x",
-    "hubot-has-no-idea": "1.0.x",
-    "redis": "0.9.x"
+    "hubot-has-no-idea": "1.0.x"
   },
   "engines": {
     "node": ">= 0.10.x",
