@@ -20,7 +20,7 @@
     "hubot-business-cat": "1.0.x",
     "hubot-chicken-dance": "1.0.x",
     "hubot-has-no-idea": "1.0.x",
-    "hubot-cool-ascii-faces": "~1.0.0"
+    "hubot-cool-ascii-faces": "1.0.x"
   },
   "engines": {
     "node": ">= 0.10.x",
