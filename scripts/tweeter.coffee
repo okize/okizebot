@@ -11,7 +11,7 @@
 #   HUBOT_TWITTER_ACCESS_TOKEN_SECRET
 #
 # Commands:
-#   hubot OH <update> - posts the update to okizebot Twitter account
+#   hubot tweet <update> - posts the update to okizebot Twitter account
 #
 # Notes
 #   None
