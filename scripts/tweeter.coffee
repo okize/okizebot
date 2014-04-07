@@ -69,6 +69,6 @@ module.exports = (robot) ->
         return msg.send "#{err.message} -> #{JSON.parse(err.twitterReply).error}"
       if reply['text']
         id = reply['id_str']
-        return msg.send "\nhttps://twitter.com/okizebot/status/#{id}"
+        return msg.send "https://twitter.com/okizebot/status/#{id}\n"
       else
         return msg.reply "Ugh, I'm can't tell if that Tweet posted, please check http://twitter.com/okizebot"
