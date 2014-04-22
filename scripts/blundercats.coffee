@@ -11,7 +11,7 @@
 #   None
 
 getImage = (msg, type) ->
-  msg.http("http://blunder-cats.heroku.com/images/#{type}")
+  msg.http("http://blunder-cats.herokuapp.com/images/#{type}")
     .get() (err, res, body) ->
       msg.send body
 
