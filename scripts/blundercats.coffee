@@ -10,12 +10,17 @@
 # Commands:
 #   None
 
-
+getImage = (msg, type) ->
+  msg.http("http://blunder-cats.herokuapp.com/images/#{type}")
+    .get() (err, res, body) ->
+      msg.send body
 
 module.exports = (robot) ->
 
-  robot.hear /Build (FAILED|PASSED)/, (msg) ->
-    if msg.match[1] == 'FAILED'
-      return msg.send 'request fail image'
+  robot.hear /Build (PASSED|FAILED)/, (msg) ->
+
     if msg.match[1] == 'PASSED'
-      return msg.send 'request win image'
+      getImage msg, 'win'
+
+    if msg.match[1] == 'FAILED'
+      getImage msg, 'fail'
