@@ -1,15 +1,12 @@
 {
   "name": "okizebot",
-  "private": true,
   "version": "2.6.4",
-  "author": "GitHub Inc.",
+  "private": true,
   "description": "Robot okize",
-  "licenses": [
-    {
+  "licenses": [{
       "type": "MIT",
       "url": "https://github.com/github/hubot/raw/master/LICENSE"
-    }
-  ],
+  }],
   "repository": {
     "type": "git",
     "url": "https://github.com/okize/okizebot"
@@ -18,11 +15,12 @@
     "twit": "1.1.x",
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
+    "hubot-cron": "0.2.x",
     "hubot-business-cat": "1.0.x",
-    "hubot-chicken-dance": "1.0.x",
     "hubot-has-no-idea": "1.0.x",
+    "hubot-chicken-dance": "1.0.x",
     "hubot-cool-ascii-faces": "1.0.x",
-    "hubot-cron": "0.2.x"
+    "hubot-flubr": "1.0.x"
   },
   "engines": {
     "node": ">= 0.10.x",
