@@ -1,4 +1,7 @@
-[![NPM version](https://badge.fury.io/js/hubot-cool-ascii-faces.png)](http://badge.fury.io/js/hubot-cool-ascii-faces) [![NPM version](https://david-dm.org/okize/hubot-cool-ascii-faces.png)](https://david-dm.org/okize/hubot-cool-ascii-faces) [![Build Status](https://secure.travis-ci.org/okize/hubot-cool-ascii-faces.png)](http://travis-ci.org/okize/hubot-cool-ascii-faces)
+[![NPM version](http://img.shields.io/npm/v/hubot-cool-ascii-faces.svg?style=flat)](https://www.npmjs.org/package/hubot-cool-ascii-faces)
+[![Build Status](http://img.shields.io/travis/okize/hubot-cool-ascii-faces.svg?style=flat)](https://travis-ci.org/okize/hubot-cool-ascii-faces)
+[![Dependency Status](http://img.shields.io/david/okize/hubot-cool-ascii-faces.svg?style=flat)](https://david-dm.org/okize/hubot-cool-ascii-faces)
+[![Downloads](http://img.shields.io/npm/dm/hubot-cool-ascii-faces.svg?style=flat)](https://www.npmjs.org/package/hubot-cool-ascii-faces)
 
 # Hubot: Cool Ascii Faces
 
@@ -15,10 +18,13 @@ Hubot script for [Max Ogden's](https://github.com/maxogden) [Cool Ascii Faces](h
 
 Add the package `hubot-cool-ascii-faces` as a dependency in your Hubot `package.json` file.
 
-    "dependencies": {
-      "hubot-cool-ascii-faces": "1.0.x"
-    }
-
+```javascript
+"dependencies": {
+  "hubot":              "2.x",
+  "hubot-scripts":      "2.x",
+  "hubot-cool-ascii-faces": "1.0.x"
+}
+```
 Run the following command to make sure the module is installed.
 
     $ npm install hubot-cool-ascii-faces
