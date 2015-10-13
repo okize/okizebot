@@ -1,8 +1,8 @@
 [
   "hubot-business-cat",
-  "hubot-has-no-idea",
-  "hubot-chicken-dance",
   "hubot-cool-ascii-faces",
-  "hubot-cron",
-  "hubot-flubr"
+  "hubot-flubr",
+  "hubot-garble",
+  "hubot-chicken-dance",
+  "hubot-has-no-idea"
 ]
