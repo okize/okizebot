@@ -1,4 +1,4 @@
- {
+{
   "name": "okizebot",
   "version": "2.6.4",
   "private": true,
@@ -22,6 +22,7 @@
     "hubot-flubr": "^1.1.3",
     "hubot-garble": "^1.2.0",
     "hubot-has-no-idea": "^1.2.0",
+    "hubot-redis-brain": "0.0.3",
     "hubot-scripts": "^2.16.2",
     "twit": "^2.1.1"
   },
