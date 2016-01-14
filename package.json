@@ -24,6 +24,9 @@
     "hubot-has-no-idea": "^1.2.0",
     "hubot-redis-brain": "0.0.3",
     "hubot-scripts": "^2.16.2",
+    "hubot-xkcd": "0.0.3",
+    "install": "~0.4.1",
+    "npm": "~3.5.3",
     "twit": "^2.1.1"
   },
   "engines": {

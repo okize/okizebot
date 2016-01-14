@@ -1,5 +1,6 @@
 [
   "hubot-redis-brain",
+  "hubot-xkcd",
   "hubot-business-cat",
   "hubot-cool-ascii-faces",
   "hubot-flubr",
