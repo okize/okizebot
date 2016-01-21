@@ -14,8 +14,8 @@
     "url": "https://github.com/okize/okizebot"
   },
   "dependencies": {
-    "hubot": "~2.17.0",
-    "hubot-business-cat": "~1.2.6",
+    "hubot": "~2.18.0",
+    "hubot-business-cat": "~1.4.1",
     "hubot-chicken-dance": "~1.1.0",
     "hubot-cool-ascii-faces": "~1.2.0",
     "hubot-cron": "~0.2.0",
