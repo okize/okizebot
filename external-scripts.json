@@ -1,10 +1,20 @@
 [
-  "hubot-redis-brain",
-  "hubot-xkcd",
   "hubot-business-cat",
+  "hubot-chicken-dance",
   "hubot-cool-ascii-faces",
+  "hubot-diagnostics",
   "hubot-flubr",
   "hubot-garble",
-  "hubot-chicken-dance",
-  "hubot-has-no-idea"
+  "hubot-google-images",
+  "hubot-google-translate",
+  "hubot-has-no-idea",
+  "hubot-help",
+  "hubot-heroku-keepalive",
+  "hubot-maps",
+  "hubot-pugme",
+  "hubot-redis-brain",
+  "hubot-rules",
+  "hubot-shipit",
+  "hubot-slack",
+  "hubot-xkcd"
 ]
